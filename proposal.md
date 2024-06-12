@@ -19,7 +19,7 @@ You have NPCS that you can talk to.
 The player has a log book to view conversations with previous NPCS. 
 Search capabilities will be developed.
 The first tier of the map will have different partitions/gameplay.
-Special rooms that will have different events
+Special rooms that will give 
 ***
 ## Target user
 ***
