@@ -1,12 +1,24 @@
+############################################################################
+# Title:calculator_cs30_final_project
+# Class: CS30
+# Assignment: sora_tower
+# coder: Anqi Feng
+# Version: 5
+###########################################################################
+"""This is a puzzle Tower climbing game, in this game, the player will be selected as the Sora child to start their adventure in the Sora Tower. They will discover their identity step by step through each level of puzzles. This game tentatively has five layers of towers for players to play, in each layer of towers, players will meet NPCS to tell the story of the sky, will also encounter difficult puzzles, solve the puzzles can get the key to this layer, open the next layer.
+"""
+###########################################################################
+# import libraries
 import room as r
 import characterSetting as c
 import map as m
 
+# global statement for main menu
 main1 = True
 
+# player's action list 
 player_action = ["walk", "explore", "check bagpack", "load", "save"]
-m.create_puzzle_order()
-m.initial_map()
+
 
 def player_actions():
     """
@@ -76,12 +88,17 @@ def main_menu():
   and if they want to quit or not, this is the main menu
   """
     global main1
+    print("***\nWelcome, brave adventurer, to the legendary Sora Tower." 
+          + "This ancient structure has stood for millennia, shrouded in mystery and" 
+          + "forgotten by time. Your journey begins now, as you step into the" 
+          + "realm of the sky, where history and magic intertwine.\n***")
     print(
-        "Your mission is:\n1:discover the missing kingdom history, sora kingdom\n2:Find the missing knowledge and solve the puzzle, get out from the tower"
+        "Your mission is:\n1:discover the missing kingdom history, sora kingdom\n" 
+        + "2:Find the missing knowledge and solve the puzzle, get out from the tower"
     )
-    print("\nEnter 1: For choosing an action")
+    print("\nEnter 1: Start a new game")
     print("Enter 2: To load the game")
-    print("Enter 3: For quit")
+    print("Enter 3: Quit the game")
     m_des = True
     while m_des:
         try:
@@ -110,4 +127,6 @@ def main_menu():
             print("See you next time!")
 
 
+m.create_puzzle_order()
+m.initial_map()
 main_menu()

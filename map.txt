@@ -1,25 +1,25 @@
 ╒══════════════╤═════════════╕
 │ cloudy_realm │ wind_tunnel │
 ├──────────────┼─────────────┤
-│ foggy_alcove │ math1       │
+│ foggy_alcove │ Puzzle3     │
 ╘══════════════╧═════════════╛
 ╒═══════════════╤═══════════════════╕
 │ windy_plateau │ Celestial Chamber │
 ├───────────────┼───────────────────┤
-│ echoing_hall  │ math2             │
+│ echoing_hall  │ Puzzle1           │
 ╘═══════════════╧═══════════════════╛
 ╒══════════════════╤══════════════╕
 │ starry_sanctuary │ misty_bridge │
 ├──────────────────┼──────────────┤
-│ glistening_cave  │ math         │
+│ glistening_cave  │ Puzzle4      │
 ╘══════════════════╧══════════════╛
 ╒══════════════════╤═══════════════╕
 │ stormy_ascent    │ sunlit_atrium │
 ├──────────────────┼───────────────┤
-│ whispering_grove │ chem          │
+│ whispering_grove │ Puzzle2       │
 ╘══════════════════╧═══════════════╛
 ╒══════════════╤═══════════════════╕
 │ radiant_dawn │ Celestial Chamber │
 ├──────────────┼───────────────────┤
-│ math3        │ crystal_room      │
+│ Puzzle5      │ crystal_room      │
 ╘══════════════╧═══════════════════╛
