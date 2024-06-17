@@ -57,7 +57,7 @@ def player_actions():
             c.meet_npc(c.PlayerAn)
         elif action.lower() == player_action[1]:
             c.PlayerAn.explore()
-            print("\nScavengers, now you have:")
+            print("\nNow you have:")
             print(c.PlayerAn.backpack)
         elif action.lower() == player_action[2]:
             print(f"\n{c.PlayerAn.backpack}")
